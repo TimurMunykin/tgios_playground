@@ -1,0 +1,25 @@
+{
+  "name": "tgios_playground",
+  "version": "1.0.0",
+  "description": "A simple front-end application",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "babel-loader": "^8.2.2",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "css-loader": "^5.2.6",
+    "style-loader": "^2.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
